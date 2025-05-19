@@ -1,0 +1,29 @@
+# Framework principal
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.4.2
+pydantic-settings==2.0.3
+
+# Base de datos
+sqlalchemy==2.0.23
+pymysql==1.1.0
+cryptography==41.0.5  # Requerido por pymysql para conexiones seguras
+alembic==1.12.1  # Para migraciones de base de datos
+
+# Seguridad
+python-jose==3.3.0  # Para JWT
+passlib==1.7.4  # Para hashing de contraseñas
+bcrypt==4.0.1  # Algoritmo de hashing
+python-multipart==0.0.6  # Para formularios y autenticación
+
+# Variables de entorno
+python-dotenv==1.0.0
+
+# Utilidades
+requests==2.31.0  # Para llamadas a APIs externas
+email-validator==2.1.0  # Para validación de correos
+pytz==2023.3  # Para manejo de zonas horarias
+
+# Extras - Opcional según tus necesidades
+pandas==2.1.2  # Para análisis de datos y exportaciones
+openpyxl==3.1.2  # Para exportar a Excel
