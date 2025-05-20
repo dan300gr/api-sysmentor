@@ -27,7 +27,7 @@ app = FastAPI(
 # Configuración de CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://api-sysmentor.onrender.com", "https://sysmentor-frontend.vercel.app/"],  # En producción, especifica los dominios permitidos
+    allow_origins=["http://localhost:3000","https://api-sysmentor.onrender.com", "https://sysmentor-frontend.vercel.app"],  # En producción, especifica los dominios permitidos
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
